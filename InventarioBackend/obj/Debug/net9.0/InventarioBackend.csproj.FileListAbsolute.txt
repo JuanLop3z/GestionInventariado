@@ -1,3 +1,11 @@
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.csproj.AssemblyReference.cache
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.AssemblyInfoInputs.cache
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.AssemblyInfo.cs
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.csproj.CoreCompileInputs.cache
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.sourcelink.json
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\appsettings.Development.json
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\appsettings.json
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\InventarioBackend.staticwebassets.endpoints.json
@@ -144,13 +152,6 @@ C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\D
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\InventarioDB.dll
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\InventarioDB.pdb
-C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.csproj.AssemblyReference.cache
-C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.GeneratedMSBuildEditorConfig.editorconfig
-C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.AssemblyInfoInputs.cache
-C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.AssemblyInfo.cs
-C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.csproj.CoreCompileInputs.cache
-C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.MvcApplicationPartsAssemblyInfo.cs
-C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.MvcApplicationPartsAssemblyInfo.cache
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\scopedcss\bundle\InventarioBackend.styles.css
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\staticwebassets.build.json
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\staticwebassets.build.json.cache
@@ -163,3 +164,11 @@ C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\D
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.pdb
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\InventarioBackend.genruntimeconfig.cache
 C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\obj\Debug\net9.0\ref\InventarioBackend.dll
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\Commons.dll
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\Utils.dll
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\Utils.pdb
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\Commons.pdb
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -4,6 +4,71 @@
     "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\InventarioBackend.csproj": {}
   },
   "projects": {
+    "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Commons\\Commons.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Commons\\Commons.csproj",
+        "projectName": "Commons",
+        "projectPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Commons\\Commons.csproj",
+        "packagesPath": "C:\\Users\\-JuanLopez-\\.nuget\\packages\\",
+        "outputPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Commons\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\-JuanLopez-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\InventarioBackend.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,8 +97,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioDB\\InventarioDB.csproj": {
-                "projectPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioDB\\InventarioDB.csproj"
+              "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\InventarioDB\\InventarioDB.csproj": {
+                "projectPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\InventarioDB\\InventarioDB.csproj"
+              },
+              "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Utils\\Utils.csproj": {
+                "projectPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Utils\\Utils.csproj"
               }
             }
           }
@@ -54,6 +122,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.5, )"
@@ -65,6 +137,10 @@
               "version": "[9.0.8, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[9.0.4, )"
             }
@@ -92,14 +168,14 @@
         }
       }
     },
-    "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioDB\\InventarioDB.csproj": {
+    "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\InventarioDB\\InventarioDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioDB\\InventarioDB.csproj",
+        "projectUniqueName": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\InventarioDB\\InventarioDB.csproj",
         "projectName": "InventarioDB",
-        "projectPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioDB\\InventarioDB.csproj",
+        "projectPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\InventarioDB\\InventarioDB.csproj",
         "packagesPath": "C:\\Users\\-JuanLopez-\\.nuget\\packages\\",
-        "outputPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioDB\\obj\\",
+        "outputPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\InventarioDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -163,6 +239,75 @@
               "version": "[9.0.4, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Utils\\Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Utils\\Utils.csproj",
+        "projectName": "Utils",
+        "projectPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Utils\\Utils.csproj",
+        "packagesPath": "C:\\Users\\-JuanLopez-\\.nuget\\packages\\",
+        "outputPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\-JuanLopez-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Commons\\Commons.csproj": {
+                "projectPath": "C:\\AProjects\\JUANLOPEZ\\MiniSistemadeGestióndeInventario\\InventarioBackend\\Commons\\Commons.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",

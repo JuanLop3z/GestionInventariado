@@ -1,56 +1,62 @@
-﻿//using Database.FEInsepet.DataBase;
-//using Database.FEInsepet.DataBase.Models;
-//using Microsoft.AspNetCore.Mvc;
-//using Microsoft.IdentityModel.Tokens;
-//using System.IdentityModel.Tokens.Jwt;
-//using System.Security.Claims;
-//using System.Text;
-//using static Models.Authenticator.ValidateModel;
+﻿using InventarioBackend.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
-//namespace WsLectura.Controllers
-//{
-//    public class JWTAuthenticationController : Controller
-//    {
-//        private readonly IConfiguration _configuration;
+namespace InventarioBackend.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class JWTAuthenticationController : Controller
+    {
+        private readonly IConfiguration _configuration;
 
-//        public JWTAuthenticationController(IConfiguration configuration)
-//        {
-//            _configuration = configuration;
-//        }
+        public JWTAuthenticationController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
 
-//        [HttpPost("login")]
-//        public IActionResult Login([FromBody] ValidateStation userLogin)
-//        {
-//            Estacion estacion = feinsepetContext.Estacion.Where(est => est.Nitestacion == userLogin.Nit).FirstOrDefault();
-//            //Validacion de usuario por una consulta
-//            if (userLogin.Nit == estacion.Nitestacion/* && userLogin.Password == "123"*/)
-//            {
-//                var token = GenerateJwtToken(userLogin.Nit);
-//                return Ok(new { token });
-//            }
-//            return Unauthorized("Credenciales inválidas");
-//        }
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] ValidateUser userLogin)
+        {
+            var defaultUser = new
+            {
+                user = "admin",
+                Password = "admin123"
+            };
 
-//        private string GenerateJwtToken(string username)
-//        {
-//            var jwtSettings = _configuration.GetSection("JwtSettings");
-//            var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]);
+            // Validación de credenciales contra el usuario por defecto
+            if (userLogin.User == defaultUser.user && userLogin.Password == defaultUser.Password)
+            {
+                var token = GenerateJwtToken(userLogin.User);
+                return Ok(new { token });
+            }
 
-//            var tokenDescriptor = new SecurityTokenDescriptor
-//            {
-//                Subject = new ClaimsIdentity(new Claim[]
-//                {
-//                new Claim(ClaimTypes.Name, username),
-//                new Claim(ClaimTypes.Role, "Estacion")
-//                }),
-//                Expires = DateTime.UtcNow.AddMinutes(Convert.ToInt32(jwtSettings["Duration"])),
-//                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-//            };
+            return Unauthorized("Credenciales inválidas");
+        }
 
-//            var tokenHandler = new JwtSecurityTokenHandler();
-//            var token = tokenHandler.CreateToken(tokenDescriptor);
+        private string GenerateJwtToken(string username)
+        {
+            var jwtSettings = _configuration.GetSection("JWTSettings");
+            var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]);
 
-//            return tokenHandler.WriteToken(token);
-//        }
-//    }
-//}
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new[]
+                {
+                    new Claim(ClaimTypes.Name, username),
+                    new Claim(ClaimTypes.Role, "Admin")
+                }),
+                Expires = DateTime.UtcNow.AddMinutes(Convert.ToInt32(jwtSettings["Duration"])),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+
+            return tokenHandler.WriteToken(token);
+        }
+    }
+}

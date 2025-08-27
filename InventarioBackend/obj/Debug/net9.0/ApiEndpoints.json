@@ -1,1 +1,64 @@
-[]
+[
+  {
+    "ContainingType": "InventarioBackend.Controllers.JWTAuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/JWTAuthentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "InventarioBackend.Models.ValidateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InventarioBackend.Controllers.ProductosController",
+    "Method": "GetInventario",
+    "RelativePath": "productos/inventario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Utils.Responses.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[InventarioDB.DataBase.Models.Productos, InventarioDB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "InventarioBackend.Controllers.ProductosController",
+    "Method": "Movimiento",
+    "RelativePath": "productos/movimiento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InventarioBackend.Models.MovimientoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Utils.Responses.ApiResponse\u00601[[InventarioDB.DataBase.Models.Productos, InventarioDB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

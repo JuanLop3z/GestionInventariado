@@ -1,0 +1,16 @@
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\bin\Debug\net9.0\Utils.deps.json
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\bin\Debug\net9.0\Utils.dll
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\bin\Debug\net9.0\Utils.pdb
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\bin\Debug\net9.0\Commons.dll
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\bin\Debug\net9.0\Commons.pdb
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\Utils.csproj.AssemblyReference.cache
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\Utils.AssemblyInfoInputs.cache
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\Utils.AssemblyInfo.cs
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\Utils.csproj.CoreCompileInputs.cache
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\Utils.sourcelink.json
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\Utils.csproj.Up2Date
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\Utils.dll
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\refint\Utils.dll
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\Utils.pdb
+C:\AProjects\JUANLOPEZ\MiniSistemadeGestióndeInventario\InventarioBackend\Utils\obj\Debug\net9.0\ref\Utils.dll
