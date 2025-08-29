@@ -2,6 +2,7 @@
 using InventarioDB.DataBase;
 using InventarioDB.DataBase.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using Utils.Responses;
 
 namespace InventarioBackend.Controllers
 {
+    [EnableCors("AllowAngular")]
     [ApiController]
     [Route("productos")]
     [Authorize]

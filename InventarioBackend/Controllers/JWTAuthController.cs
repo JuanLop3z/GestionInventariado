@@ -1,4 +1,5 @@
 ﻿using InventarioBackend.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -7,6 +8,7 @@ using System.Text;
 
 namespace InventarioBackend.Controllers
 {
+    [EnableCors("AllowAngular")]
     [ApiController]
     [Route("api/[controller]")]
     public class JWTAuthenticationController : Controller

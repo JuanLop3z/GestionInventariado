@@ -1,0 +1,43 @@
+<div class="container">
+  <!-- Formulario -->
+  <div class="form-container">
+    <h3>➕ Registrar Movimiento</h3>
+    <form (ngSubmit)="registrarMovimiento()" #form="ngForm">
+      <label>Producto ID:</label>
+      <input type="number" [(ngModel)]="movimiento.productoId" name="productoId" required />
+
+      <label>Tipo:</label>
+      <select [(ngModel)]="movimiento.tipo" name="tipo">
+        <option value="entrada">Entrada</option>
+        <option value="salida">Salida</option>
+      </select>
+
+      <label>Cantidad:</label>
+      <input type="number" [(ngModel)]="movimiento.cantidad" name="cantidad" required />
+
+      <button type="submit" [disabled]="form.invalid">Registrar</button>
+    </form>
+  </div>
+
+  <!-- Tabla -->
+  <div class="table-container">
+    <h2>📦 Inventario</h2>
+    <p *ngIf="mensaje" [ngClass]="mensajeTipo">{{ mensaje }}</p>
+    <table cellpadding="6" cellspacing="0">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Cantidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let p of inventario">
+          <td>{{ p.id }}</td>
+          <td>{{ p.nombre }}</td>
+          <td>{{ p.cantidad }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
